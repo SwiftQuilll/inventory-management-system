@@ -14,7 +14,7 @@ jobs:
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
-          username: swiftquilll
+          username: swiftquill
           password: ${{ secrets.DOCKERHUB_TOKEN }}
 
       - name: Build and Push Docker Image
@@ -22,4 +22,4 @@ jobs:
         with:
           context: ./backend
           push: true
-          tags: swiftquilll/inventory-backend:latest
+          tags: swiftquill/inventory-backend:latest
