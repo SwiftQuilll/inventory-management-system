@@ -1,0 +1,13 @@
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Node modules and production builds
+node_modules/
+dist/
+.env
+
+# Database files
+postgres_data/
